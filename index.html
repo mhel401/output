@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mt. Pulag Website</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+/* GENERAL */
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* SECTION */
+.section {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(90deg, #4b2cd3, #6a4df5);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* CONTAINER (PHONE STYLE) */
+.container-box {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ROUND IMAGE */
+.round-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn-custom {
+    background: #4b2cd3;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 8px 0;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #3720a3;
+}
+
+/* IMAGE */
+.content-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.text-content {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* LIST */
+.location-list {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.location-list li {
+    margin-bottom: 8px;
+}
+
+/* WELCOME */
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* SIGN STYLE */
+.welcome-box {
+    border: 3px solid black;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- WELCOME -->
+<section id="welcome" class="section welcome text-center">
+    <div>
+        <div class="welcome-box">WELCOME</div>
+        <a href="#home" class="btn btn-primary mt-3">Enter</a>
+    </div>
+</section>
+
+<!-- HOME -->
+<section id="home" class="section">
+    <div class="container-box text-center">
+        <div class="header">Mt. Pulag</div>
+
+        <img src="./licensed-image.jpg" class="round-img">
+
+        <h3 class="title">MT. PULAG</h3>
+
+        <a href="#about" class="btn btn-custom">ABOUT</a>
+        <a href="#location" class="btn btn-custom">LOCATION</a>
+        <a href="#more" class="btn btn-custom">MORE INFO</a>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <div class="container-box">
+        <div class="header">
+            <a href="#home" class="back-btn">←</a>
+        </div>
+
+        <img src="./Clouds_near_Mt._Pulag.jpg" class="content-img">
+
+        <p class="text-content">
+            Mount Pulag, the highest peak in Luzon (2,928 meters), is the third highest in the Philippines.
+            It is sacred to indigenous tribes including the Ibaloi, Kalanguya, and Kankana-ey.
+            It is famous for its sea of clouds and rich biodiversity.
+        </p>
+    </div>
+</section>
+
+<!-- LOCATION -->
+<section id="location" class="section">
+    <div class="container-box">
+        <div class="header">
+            <a href="#home" class="back-btn">←</a>
+        </div>
+
+        <img src="./627677965_1646223573474171_474354018273962871_n.jpg" class="content-img">
+
+        <ul class="location-list">
+            <li>Kabayan, Benguet</li>
+            <li>Ambangeg Trail</li>
+            <li>Tawangan Trail</li>
+            <li>Akiki Trail</li>
+        </ul>
+    </div>
+</section>
+
+<!-- MORE INFO -->
+<section id="more" class="section">
+    <div class="container-box">
+        <div class="header">
+            <a href="#home" class="back-btn">←</a>
+        </div>
+
+        <img src="./Panoramic_Shot_of_Mt._Pulag_Summit_and_Grassland.jpg" class="content-img">
+
+        <p class="text-content">
+            Mount Pulag offers breathtaking sunrise views above the clouds.
+            Best time to visit is November to April.
+            Visitors must register and follow park rules.
+        </p>
+    </div>
+</section>
+
+</body>
+</html>
