@@ -1,0 +1,114 @@
+/* GENERAL */
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* SECTION */
+.section {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(90deg, #4b2cd3, #6a4df5);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* CONTAINER (PHONE STYLE) */
+.container-box {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* ROUND IMAGE */
+.round-img {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+}
+
+/* TITLE */
+.title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn-custom {
+    background: #4b2cd3;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 8px 0;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background: #3720a3;
+}
+
+/* IMAGE */
+.content-img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* TEXT */
+.text-content {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* LIST */
+.location-list {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.location-list li {
+    margin-bottom: 8px;
+}
+
+/* WELCOME */
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* SIGN STYLE */
+.welcome-box {
+    border: 3px solid black;
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
